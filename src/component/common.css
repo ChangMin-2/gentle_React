@@ -1,0 +1,163 @@
+/* common */
+/* gentle font */
+@import url('http://db.onlinewebfonts.com/c/04b98e0c477863adcdaae7d4d98c063a?family=GentleMonster');
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+* {margin: 0; padding: 0; font-family: 'Noto Sans KR', sans-serif; box-sizing: border-box;}
+li {list-style: none;}
+a {text-decoration: none; color: inherit;}
+body {padding-top: 152px;}
+.inner {width: 1640px; margin: 0 auto; position: relative;}
+.logo { font-family: "GentleMonster"; font-size: 22px;}
+
+/* header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; height: 65px;
+  line-height: 65px;
+  z-index: 1000;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.header .inner .logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  cursor: pointer;
+}
+.header .inner .gnb-area {
+  position: absolute;
+  right: 0;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.header .inner .gnb-area .search-area {
+  border: 1px solid #666;
+  border-radius: 15px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.header .inner .gnb-area .search-area input {
+  border: none;
+  outline: none;
+}
+.header .inner .gnb-area .gnb__btn {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+.header__icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+.header__icon.menu__btn {
+  font-size: 24px;
+}
+.gnb {
+  opacity: 0;
+  position: absolute;
+  background-color: #fff;
+  z-index: 999;
+  top: 65px;
+  right: 0px;
+  width: 260px;
+  border: 1px solid #eee;
+  border-top: none;
+  padding: 0 15px;
+}
+.gnb .login {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #666;
+}
+.gnb a {
+  display: block;
+  font-size: 14px;
+}
+.gnb .sign-in {
+  font-weight: bold;
+}
+.gnb .sign-up {
+  color: #666;
+}
+
+.lnb {
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  position: absolute;
+  top: 65px;
+  left: 0;
+  padding: 3px 0;
+}
+.lnb .inner {
+  display: flex;
+  justify-content: center;
+}
+.lnb .inner .tab{
+  width: 122px;
+  cursor: pointer;
+  text-align: center;
+  line-height: normal;
+}
+.lnb .inner .tab>img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.lnb .inner .tab p {
+  font-size: 11px;
+}
+
+/* footer */
+.footer {
+  background-color: #f9f9f9;
+  padding: 30px 0 50px 0;
+}
+.footer .footer__top {
+  display: flex;
+  gap: 60px;
+}
+.footer .footer__top p {
+  font-size: 13px;
+  color: #707070;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+.footer .footer__top ul {
+  display: flex;
+  gap: 15px;
+}
+.footer .footer__top ul li {
+  font-size: 11px;
+  color: #707070;
+  cursor: pointer;
+}
+.footer .footer__bottom {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  gap: 100px;
+}
+.footer .footer__bottom div {
+  font-size: 11px;
+  color: #707070;
+}
+.footer .footer__bottom .footer__icon-area{
+  display: flex;
+  gap: 10px;
+}
+.footer .footer__bottom .footer__icon {
+  font-size: 24px;
+  color: #707070;
+  cursor: pointer;
+}
