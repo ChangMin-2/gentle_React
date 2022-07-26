@@ -1,5 +1,5 @@
 /*eslint-disable*/  //노란줄을 없애줌
-import React from 'react'
+import React, { useState } from 'react'
 import './common.css';
 // react-icons
 import { GrSearch, GrMenu } from "react-icons/gr"
@@ -10,6 +10,19 @@ import { tab } from './data';
 export default function Header() {
 
   const navigate = useNavigate()
+
+
+  let state = false
+  function toggle(){
+    const gnb = document.querySelector('.gnb')
+    if(state == false){
+      gnb.style.display = 'block';
+      state = true
+    }else if(state == true){
+      gnb.style.display = 'none';
+      state = false
+    }
+  }
 
   return (
     <header className='header'>
@@ -23,7 +36,7 @@ export default function Header() {
             <input type="text" placeholder='상품 검색'/>
             <GrSearch className='header__icon'/>      
           </div>
-          <div className='gnb__btn'>
+          <div className='gnb__btn' onClick={toggle}>
             <GrMenu className='header__icon menu__btn'/>
           </div>
         </div>

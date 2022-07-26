@@ -12,26 +12,38 @@ import Cateye from './pages/Cateye';
 import Square from './pages/Square';
 import Circle from './pages/Circle';
 import Collabo from './pages/Collabo';
+import Detail from './pages/Detail';
 
 function App() {
+
   return (
     <div className="App">
       <Header/>
 
         <Routes>
           <Route path='/' element={<Main/>}/>
-          <Route path='/all' element={<All/>}/>
-          <Route path='/best' element={<Best/>}/>
-          <Route path='/classic' element={<Classic/>}/>
-          <Route path='/tint' element={<Tint/>}/>
-          <Route path='/cateye' element={<Cateye/>}/>
-          <Route path='/square' element={<Square/>}/>
-          <Route path='/circle' element={<Circle/>}/>
-          <Route path='/collabo' element={<Collabo/>}/>
+          <Route path='/all' element={<All/>}>
+          </Route>
+          <Route path='/best' element={<Best/>}>
+          </Route>
+          <Route path='/classic' element={<Classic/>}>
+          </Route>
+          <Route path='/tint' element={<Tint/>}>
+          </Route>
+          <Route path='/cateye' element={<Cateye/>}>
+          </Route>
+          <Route path='/square' element={<Square/>}>
+          </Route>
+          <Route path='/circle' element={<Circle/>}>
+          </Route>
+          <Route path='/collabo' element={<Collabo/>}>
+          </Route>
+          <Route path='/detail' element={<Detail/>}>
+          </Route>
         </Routes>
 
       <Footer/>
-    </div>
+    </div> 
   );
 }
 
