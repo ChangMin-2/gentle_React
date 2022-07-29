@@ -25,26 +25,28 @@ export default function All() {
         <div className='container'>
           {
             product.map((value,index)=>{
-              return(
-                
-                <div className='product' key={value.id}>
-                  <Link to="/detail" target='_blank'>
-                    <img src={`./images/product_${index+1}.jpg`} alt="product" />
-                  </Link>
-                  <div className='heart'>
-                    <BsBag></BsBag>
-                    <BsSuitHeart></BsSuitHeart>
-                  </div>
-                  <div className='text-area'>
-                    <div>  
-                      <p>{value.title}</p>
-                      <p>color+{value.color}</p>
+              if(value.id.includes('product')){
+                return(
+                  
+                  <div className='product' key={value.id}>
+                    <Link to="/detail" target='_blank'>
+                      <img src={`./images/product_${index+1}.jpg`} alt="product" />
+                    </Link>
+                    <div className='heart'>
+                      <BsBag></BsBag>
+                      <BsSuitHeart></BsSuitHeart>
                     </div>
-                    <p>{value.price}</p>
-                  </div>
+                    <div className='text-area'>
+                      <div>  
+                        <p>{value.title}</p>
+                        <p>color+{value.color}</p>
+                      </div>
+                      <p>{value.price}</p>
+                    </div>
 
-                </div>
-              )
+                  </div>
+                )
+              }
             })
           }
         </div>
