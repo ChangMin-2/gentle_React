@@ -1,0 +1,141 @@
+.detail_sec {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+.detail_sec .root{
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+.detail_sec .root>div {
+  position: relative;
+  cursor: pointer;
+}
+.detail_sec .root>div::after {
+  content: '>';
+  position: absolute;
+  right: -15px;
+  top: 0;
+}
+.detail_sec .root>div:last-child::after{
+  display: none;
+}
+.product_detail {
+  display: flex;
+  gap: 16px;
+}
+.product_detail .img-area {
+  width: 1226px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.product_detail .img-area img {
+  width: 398px;
+  height: 398px;
+}
+.product_detail .text-area {
+  width: 398px;
+  position: relative;
+}
+.product_detail .text-area .name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.product_detail .text-area .name .price {
+  font-size: 14px;
+  color: #666;
+}
+.product_detail .text-area .color-text {
+  font-size: 11px;
+  color: #666;
+}
+.product_detail .text-area .other-color {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 50px;
+}
+.product_detail .text-area .info {
+  font-size: 14px;
+}
+.product_detail .text-area .button-area{
+  position: absolute;
+  bottom: 0;
+}
+.product_detail .text-area .button-area p {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.product_detail .text-area .button-area button {
+  margin-bottom: 5px;
+}
+
+.sns_sec {}
+.sns_sec .inner {
+  display: flex;
+  gap: 16px;
+}
+.sns_sec .sns p:nth-child(1){
+  font-size: 14px;
+  font-weight: bold;
+}
+.sns_sec .sns p:nth-child(2){
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.sns_sec .sns-img{
+  display: flex;
+  gap: 16px;
+}
+.sns_sec .sns-img img {
+  width: 398px;
+  height: 520px;
+}
+.sns_sec .buy_info {
+  font-size: 14px;
+  position: absolute;
+  right: 0;
+  z-index: 9;
+}
+.sns_sec .buy_info>div {
+  overflow: hidden;
+  width: 398px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+  border-bottom: 1px solid rgb(158, 158, 158);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.sns_sec .buy_info>div ul li{
+  list-style:circle;
+  margin-left: 30px;
+  font-size: 13px;
+}
+.sns_sec .buy_info .toggle.on {
+  height: 400px;
+}
+
+.recommend_sec{
+  margin: 50px 0 100px 0;
+}
+.recommend_sec .inner{}
+.recommend_sec .recommend p:nth-child(1){
+  font-size: 14px;
+  font-weight: bold;
+}
+.recommend_sec .recommend  p:nth-child(2){
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.recommend_sec .recommend-img{
+  display: flex;
+  gap: 16px;
+}
