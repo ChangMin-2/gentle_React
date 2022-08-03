@@ -85,7 +85,7 @@ export default function Main() {
                               if(window.confirm('장바구니에 추가 되었습니다. 장바구니로 바로 이동하시겠습니까?')){
                                 navigate('/cart');
                               }
-                              dispatch(addItem({id:value.id, title:value.title, count:1, price:value.priceN, img:value.img}))
+                              dispatch(addItem({id:value.id, title:value.title, count:1, price:value.priceN, img:value.img, priceT:value.price}))
                             }}></BsBag>
                           <BsSuitHeart></BsSuitHeart>
                         </div>
