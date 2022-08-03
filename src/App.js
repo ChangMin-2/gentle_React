@@ -13,6 +13,7 @@ import Square from './pages/Square';
 import Circle from './pages/Circle';
 import Collabo from './pages/Collabo';
 import Detail from './pages/Detail';
+import Cart from './pages/Cart';
 
 function App() {
 
@@ -39,6 +40,8 @@ function App() {
           <Route path='/collabo' element={<Collabo/>}>
           </Route>
           <Route path='/detail' element={<Detail/>}>
+          </Route>
+          <Route path='/cart' element={<Cart/>}>
           </Route>
         </Routes>
 

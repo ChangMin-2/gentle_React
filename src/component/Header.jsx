@@ -46,7 +46,7 @@ export default function Header() {
             <a className='sign-in' href='#!'>로그인</a>
             <a className='sign-up' href='#!'>회원가입</a>
           </div>
-          <a href="#!">장바구니</a>
+          <a href="#!" onClick={()=>{navigate('/cart')}}>장바구니</a>
           <a href="#!">위시리스트</a>
           <a href="#!">배송확인</a>
         </div>{/*gnb*/}

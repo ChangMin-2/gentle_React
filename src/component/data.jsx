@@ -48,6 +48,7 @@ const product = [
     price: '249,000',
     priceN: 249000,
     color: '5',
+    img:'./images/product_1.jpg'
   },
   {
     id: 'product_circle_tint_classic_02',
@@ -55,6 +56,7 @@ const product = [
     price: '259,000',
     priceN: 259000,
     color: '5',
+    img:'./images/product_2.jpg'
   },
   {
     id: 'product_tint_03',
@@ -62,6 +64,7 @@ const product = [
     price: '249,000',
     priceN: 249000,
     color: '4',
+    img:'./images/product_3.jpg'
   },
   {
     id: 'product_square_tint_classic_04',
@@ -69,6 +72,7 @@ const product = [
     price: '259,000',
     priceN: 259000,
     color: '5',
+    img:'./images/product_4.jpg'
   },
   {
     id: 'product_tint_05',
@@ -76,6 +80,7 @@ const product = [
     price: '269,000',
     priceN: 269000,
     color: '4',
+    img:'./images/product_5.jpg'
   },
   {
     id: 'product_tint_06',
@@ -83,6 +88,7 @@ const product = [
     price: '269,000',
     priceN: 269000,
     color: '5',
+    img:'./images/product_6.jpg'
   },
   {
     id: 'product_square_tint_classic_07',
@@ -90,6 +96,7 @@ const product = [
     price: '269,000',
     priceN: 269000,
     color: '5',
+    img:'./images/product_7.jpg'
   },
   {
     id: 'product_tint_08',
@@ -97,6 +104,7 @@ const product = [
     price: '249,000',
     priceN: 249000,
     color: '5',
+    img:'./images/product_8.jpg'
   },
   {
     id: 'product_cat_square_tint_classic_09',
@@ -104,6 +112,7 @@ const product = [
     price: '320,000',
     priceN: 320000,
     color: '4',
+    img:'./images/product_9.jpg'
   },
   {
     id: 'product_cat_tint_10',
@@ -111,6 +120,7 @@ const product = [
     price: '280,000',
     priceN: 280000,
     color: '4',
+    img:'./images/product_10.jpg'
   },
   {
     id: 'product_tint_classic_11',
@@ -118,6 +128,7 @@ const product = [
     price: '249,000',
     priceN: 249000,
     color: '5',
+    img:'./images/product_11.jpg'
   },
   {
     id: 'product_tint_12',
@@ -125,6 +136,7 @@ const product = [
     price: '269,000',
     priceN: 269000,
     color: '5',
+    img:'./images/product_12.jpg'
   },
   {
     id: 'product_cat_square_tint_classic_13',
@@ -132,6 +144,7 @@ const product = [
     price: '270,000',
     priceN: 270000,
     color: '5',
+    img:'./images/product_13.jpg'
   },
   {
     id: 'product_tint_classic_14',
@@ -139,6 +152,7 @@ const product = [
     price: '270,000',
     priceN: 270000,
     color: '4',
+    img:'./images/product_14.jpg'
   },
   {
     id: 'product_tint_15',
@@ -146,6 +160,7 @@ const product = [
     price: '269,000',
     priceN: 269000,
     color: '3',
+    img:'./images/product_15.jpg'
   },
   {
     id: 'product_square_16',
@@ -153,6 +168,7 @@ const product = [
     price: '249,000',
     priceN: 249000,
     color: '4',
+    img:'./images/product_16.jpg'
   },
   {
     id: 'product_square_17',
@@ -160,6 +176,7 @@ const product = [
     price: '320,000',
     priceN: 320000,
     color: '3',
+    img:'./images/product_17.jpg'
   },
   {
     id: 'product_square_classic_18',
@@ -167,6 +184,7 @@ const product = [
     price: '259,000',
     priceN: 259000,
     color: '4',
+    img:'./images/product_18.jpg'
   },
   {
     id: 'product_circle_square_19',
@@ -174,6 +192,7 @@ const product = [
     price: '249,000',
     priceN: 249000,
     color: '5',
+    img:'./images/product_19.jpg'
   },
   {
     id: 'product_square_classic_20',
@@ -181,6 +200,7 @@ const product = [
     price: '215,000',
     priceN: 215000,
     color: '4',
+    img:'./images/product_20.jpg'
   },
   {
     id: 'product_square_21',
@@ -188,6 +208,7 @@ const product = [
     price: '259,000',
     priceN: 259000,
     color: '4',
+    img:'./images/product_21.jpg'
   },
   {
     id: 'product_cat_square_classic_22',
@@ -195,6 +216,7 @@ const product = [
     price: '280,000',
     priceN: 280000,
     color: '4',
+    img:'./images/product_22.jpg'
   },
   {
     id: 'product_square_23',
@@ -202,6 +224,7 @@ const product = [
     price: '269,000',
     priceN: 269000,
     color: '4',
+    img:'./images/product_23.jpg'
   },
   {
     id: 'product_square_24',
@@ -209,6 +232,7 @@ const product = [
     price: '249,000',
     priceN: 249000,
     color: '3',
+    img:'./images/product_24.jpg'
   },
   {
     id: 'product_square_classic_25',
@@ -216,6 +240,7 @@ const product = [
     price: '280,000',
     priceN: 280000,
     color: '5',
+    img:'./images/product_25.jpg'
   },
   {
     id: 'product_cat_classic_26',
@@ -223,6 +248,7 @@ const product = [
     price: '270,000',
     priceN: 270000,
     color: '5',
+    img:'./images/product_26.jpg'
   },
   {
     id: 'product_cat_27',
@@ -230,6 +256,7 @@ const product = [
     price: '280,000',
     priceN: 280000,
     color: '4',
+    img:'./images/product_27.jpg'
   },
   {
     id: 'product_cat_classic_28',
@@ -237,6 +264,7 @@ const product = [
     price: '280,000',
     priceN: 280000,
     color: '4',
+    img:'./images/product_28.jpg'
   },
   {
     id: 'product_circle_cat_29',
@@ -244,6 +272,7 @@ const product = [
     price: '280,000',
     priceN: 280000,
     color: '4',
+    img:'./images/product_29.jpg'
   },
   {
     id: 'product_cat_classic_30',
@@ -251,6 +280,7 @@ const product = [
     price: '320,000',
     priceN: 320000,
     color: '4',
+    img:'./images/product_30.jpg'
   },
   {
     id: 'product_cat_31',
@@ -258,6 +288,7 @@ const product = [
     price: '280,000',
     priceN: 280000,
     color: '4',
+    img:'./images/product_31.jpg'
   },
   {
     id: 'product_cat_classic_32',
@@ -265,6 +296,7 @@ const product = [
     price: '320,000',
     priceN: 320000,
     color: '2',
+    img:'./images/product_32.jpg'
   },
   {
     id: 'product_cat_classic_33',
@@ -272,6 +304,7 @@ const product = [
     price: '280,000',
     priceN: 280000,
     color: '4',
+    img:'./images/product_33.jpg'
   },
   {
     id: 'product_cat_classic_34',
@@ -279,6 +312,7 @@ const product = [
     price: '270,000',
     priceN: 270000,
     color: '4',
+    img:'./images/product_34.jpg'
   },
   {
     id: 'product_cat_35',
@@ -286,6 +320,7 @@ const product = [
     price: '270,000',
     priceN: 270000,
     color: '2',
+    img:'./images/product_35.jpg'
   },
   {
     id: 'product_cat_36',
@@ -293,6 +328,7 @@ const product = [
     price: '280,000',
     priceN: 280000,
     color: '4',
+    img:'./images/product_36.jpg'
   },
   {
     id: 'product_cat_37',
@@ -300,6 +336,7 @@ const product = [
     price: '280,000',
     priceN: 280000,
     color: '3',
+    img:'./images/product_37.jpg'
   },
   {
     id: 'product_cat_38',
@@ -307,6 +344,7 @@ const product = [
     price: '390,000',
     priceN: 390000,
     color: '2',
+    img:'./images/product_38.jpg'
   },
   {
     id: 'product_cat_39',
@@ -314,6 +352,7 @@ const product = [
     price: '380,000',
     priceN: 380000,
     color: '2',
+    img:'./images/product_39.jpg'
   },
   {
     id: 'product_circle_40',
@@ -321,30 +360,39 @@ const product = [
     price: '259,000',
     priceN: 259000,
     color: '3',
+    img:'./images/product_40.jpg'
   },
   {
     id: 'jenny_01',
     title: '엑스오엑스오',
     price: '290,000원',
-    color: '3'
+    priceN: 290000,
+    color: '3',
+    img:'./images/product_41.jpg'
   },
   {
     id: 'jenny_02',
     title: '라 페슈',
     price: '329,000원',
-    color: '3'
+    priceN: 329000,
+    color: '3',
+    img:'./images/product_42.jpg'
   },
   {
     id: 'jenny_03',
     title: '엔젤 BEC1',
     price: '280,000원',
-    color: '3'
+    priceN: 280000,
+    color: '3',
+    img:'./images/product_43.jpg'
   },
   {
     id: 'jenny_04',
     title: '레즈유드니니',
     price: '480,000원',
-    color: '1'
+    priceN: 480000,
+    color: '1',
+    img:'./images/product_44.jpg'
   },
 ]
 const collabo = [
