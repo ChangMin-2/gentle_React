@@ -1,6 +1,4 @@
 /* common */
-/* gentle font */
-@import url('https://db.onlinewebfonts.com/c/04b98e0c477863adcdaae7d4d98c063a?family=GentleMonster');
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 * {margin: 0; padding: 0; font-family: 'Noto Sans KR', sans-serif; box-sizing: border-box;}
@@ -8,7 +6,7 @@ li {list-style: none;}
 a {text-decoration: none; color: inherit;}
 body {padding-top: 152px;}
 .inner {width: 1640px; margin: 0 auto; position: relative;}
-.logo { font-family: "GentleMonster"; font-size: 22px;}
+.logo { font-weight: bold; font-size: 22px;}
 
 /* header */
 .header {
