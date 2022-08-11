@@ -3,10 +3,13 @@ import { BsSuitHeart, BsBag } from "react-icons/bs";
 import { Link, useNavigate } from "react-router-dom";
 import './All.css'
 import { product } from '../component/data';
+import { useDispatch } from 'react-redux'
+import { addItem } from './store'
 
 export default function Classic() {
 
   const navigate = useNavigate();
+  let dispatch = useDispatch();
 
   return (
     <section className='all_sec'>
@@ -32,7 +35,12 @@ export default function Classic() {
                       <img src={`./images/product_${index+1}.jpg`} alt="product" />
                     </Link>
                     <div className='heart'>
-                      <BsBag></BsBag>
+                      <BsBag onClick={()=>{
+                        if(window.confirm('장바구니에 추가 되었습니다. 장바구니로 바로 이동하시겠습니까?')){
+                          navigate('/cart');
+                        }
+                        dispatch(addItem({id:value.id, title:value.title, count:1, price:value.priceN, img:value.img, priceT:value.price}))
+                      }}></BsBag>
                       <BsSuitHeart></BsSuitHeart>
                     </div>
                     <div className='text-area'>

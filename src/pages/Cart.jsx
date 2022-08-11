@@ -20,7 +20,7 @@ export default function Cart() {
             {
               state.cart.list.map((value, index)=>{
                 return(
-                  <div className='cart__product' key={state.cart.list[index].value}>
+                  <div className='cart__product' key={state.cart.list[index].id}>
                     <img src={state.cart.list[index].img} alt="product" />
                     <div className='cart__product__info'>
                       <p className='cart__product__title'>{state.cart.list[index].title}</p>
